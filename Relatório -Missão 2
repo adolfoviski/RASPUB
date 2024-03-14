@@ -1,0 +1,24 @@
+Relatório de Análise do Código:
+
+1a Parte da Missão:
+
+O código começa importando as bibliotecas necessárias: cv2 para processamento de imagens e numpy.
+Em seguida, uma imagem chamada 'passaro.jpg' é carregada usando cv2.imread().
+As dimensões da imagem são impressas na tela, incluindo largura, altura e a quantidade de canais de cor.
+A imagem é exibida em uma janela com o título "Nome da janela" usando cv2.imshow().
+O programa espera indefinidamente até que uma tecla seja pressionada (cv2.waitKey(0)), após o qual a imagem é escrita em um arquivo chamado 'saida.jpg' usando cv2.imwrite().
+2a Parte da Missão:
+
+Solicita ao usuário que forneça os valores da linha e coluna de um pixel específico.
+A imagem é novamente carregada usando cv2.imread().
+Os valores dos componentes de cor (vermelho, verde e azul) do pixel fornecido são extraídos da imagem.
+Os valores das componentes de cor do pixel fornecido são impressos na tela.
+Nota Adicional:
+
+Parece haver um pequeno erro no último bloco de código. A mensagem indica que o pixel (0, 0) será exibido, enquanto o código na verdade solicita ao usuário as coordenadas do pixel desejado, e não assume que seja (0, 0).
+Conclusão:
+
+O código realiza duas partes distintas de uma "missão":
+A primeira parte trata da análise básica de uma imagem, exibindo suas dimensões e visualizando-a.
+A segunda parte permite que o usuário obtenha os valores RGB de um pixel específico da imagem.
+O código está bem organizado e comentado, facilitando a compreensão.
