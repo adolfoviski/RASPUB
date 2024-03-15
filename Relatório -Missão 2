@@ -13,9 +13,7 @@ Solicita ao usuário que forneça os valores da linha e coluna de um pixel espec
 A imagem é novamente carregada usando cv2.imread().
 Os valores dos componentes de cor (vermelho, verde e azul) do pixel fornecido são extraídos da imagem.
 Os valores das componentes de cor do pixel fornecido são impressos na tela.
-Nota Adicional:
 
-Parece haver um pequeno erro no último bloco de código. A mensagem indica que o pixel (0, 0) será exibido, enquanto o código na verdade solicita ao usuário as coordenadas do pixel desejado, e não assume que seja (0, 0).
 Conclusão:
 
 O código realiza duas partes distintas de uma "missão":
