@@ -1,0 +1,14 @@
+Relatório da terceira missão:
+
+  Logo após ser introduzido ao software do Coppelia, dei início à estrutura do pêndulo.
+A mesma é constituída de dois paralelepípedos extrusos, com base de 0.2m x 0.2m, e altura 0.8m; onde um destes está disposto 
+"verticalmente", isto é, com sua base em contato com o "chão", o outro está alocado ortogonalmente em contato com uma das laterais do primeiro paralelepípedo, mais precisamente
+na parte de cima, onde a aresta de sua base faz limiar com a aresta da base do outro paralelpípedo.
+
+  Para constituir o pêndulo, eu utilizei um cilíndro alongado como cabo, de baso com raio 0.01m e altura de 0.3m, ligado a uma esfera de raio 0.1m.
+
+  Para criar a estrutura que sustenta o pêndulo, utilizei duas juntas prismáticas nos paralelepípedos, a primeira unindo o paralelepido vertial ao chão, e a segunda unindo o paralelepípedo
+vertical ao horizontal, posta em um ângulo de 45°. No pendulo, utilizei uma junta esférica para uni-lo do cabo ao paralelepípedo horizontal, e uma junta de revolução para unir o cabo à esfera.
+
+  Dispus o pêndulo partindo da posição horizontal, em contato com o paraleleípedo cujo está preso, e como o simulador tem a mesma aceleração gravitacional da superfície da terra
+temos que o período do pêndulo é de 2(pi)*sqrt(L/g), onde "L" é o comprimento do "cabo" (0.3m) e "g" a aceleração gravitacional (9.81 m/s^2), ou seja, tem um período de aproximadamente 1.1 segundos.
